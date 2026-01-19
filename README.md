@@ -45,6 +45,6 @@ ecommerce
 │   ├── src/main/java      # Source code
 │   ├── src/main/resources # Configuration (application.properties)
 │   └── pom.xml            # Maven dependencies
-├── frontend               # (If applicable) UI source files
-└── README.md
+├ Readme.md
+
 ```
