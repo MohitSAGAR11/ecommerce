@@ -1,83 +1,50 @@
-🛒 E-Commerce Application
+# 🛒 E-Commerce Application
 
-A modern, full-stack e-commerce application designed to deliver a seamless online shopping experience. The project supports product browsing, cart management, order processing, and secure checkout, following real-world application architecture and best practices.
+[![Java Version](https://img.shields.io/badge/Java-17%2B-orange)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring--Boot-3.x-green)](https://spring.io/projects/spring-boot)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-🚀 Features
+A modern, full-stack e-commerce solution built with high-performance architecture. This application provides a seamless shopping experience from product discovery to secure checkout, utilizing **Spring Boot** for a robust backend and **MongoDB** for flexible data management.
 
-User Authentication – Secure user signup and login
+---
 
-Product Catalog – Browse products with images, descriptions, and categories
+## 🚀 Key Features
 
-Search & Filter – Quickly find products using keywords and category filters
+* **Secure Authentication** – Robust user signup and login systems.
+* **Dynamic Catalog** – Browse products with rich descriptions, images, and category tagging.
+* **Advanced Search** – Efficiently find products via keyword search and category filtering.
+* **Real-time Cart** – Manage items, update quantities, and calculate totals instantly.
+* **Order Tracking** – Complete order lifecycle management from placement to status updates.
+* **Persistent History** – Personalized dashboard to view and manage previous purchases.
+* **Responsive UI** – Fully optimized for mobile, tablet, and desktop environments.
 
-Shopping Cart – Add, remove, and update product quantities in real time
+---
 
-Order Management – Place orders and track order status
+## 🛠 Tech Stack
 
-Order History – View previous purchases and order details
+### Backend
+* **Core:** Java 17+
+* **Framework:** Spring Boot (Data JPA, Web, Security)
+* **Architecture:** RESTful Web Services
 
-Responsive Design – Optimized for desktop, tablet, and mobile devices
+### Database & Storage
+* **Primary Database:** MongoDB (NoSQL)
+* **Image Handling:** [e.g., Cloudinary / AWS S3 / Local Storage]
 
-🛠 Tech Stack
+### Tools & DevOps
+* **Build Tool:** Maven
+* **Version Control:** Git
 
-Backend
+---
 
-Spring Boot
+## 📂 Project Structure
 
-RESTful APIs
-
-Database
-
-MongoDB
-
-📋 Prerequisites
-
-Before running the project, ensure you have:
-
-Java 17+ / Node.js (v14+)
-
-MongoDB (Local or Atlas)
-
-Git
-
-Maven / npm
-
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/MohitSAGAR11/ecommerce.git
-cd ecommerce
-
-2️⃣ Backend setup
-cd backend
-mvn clean install
-mvn spring-boot:run
-
-
-Fork the project
-
-Create your feature branch
-
-git checkout -b feature/AmazingFeature
-
-
-Commit your changes
-
-git commit -m "Add AmazingFeature"
-
-
-Push to the branch
-
-git push origin feature/AmazingFeature
-
-
-Open a Pull Request
-
-
-📧 Contact
-
-Mohit Sagar
-
-GitHub: MohitSAGAR11
-
-🔗 Project Link:
-https://github.com/MohitSAGAR11/ecommerce
+```text
+ecommerce
+├── backend
+│   ├── src/main/java      # Source code
+│   ├── src/main/resources # Configuration (application.properties)
+│   └── pom.xml            # Maven dependencies
+├── frontend               # (If applicable) UI source files
+└── README.md
+```
